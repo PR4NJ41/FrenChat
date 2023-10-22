@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { EmojiEmotions, AttachFile, Mic } from "@mui/icons-material";
+import { AttachFile, Mic } from "@mui/icons-material";
 import { uploadFile } from "../../../service/api";
 
 const Footer = ({ sendText, value, setValue, setFile, file, setImage }) => {
@@ -24,7 +24,7 @@ const Footer = ({ sendText, value, setValue, setFile, file, setImage }) => {
 
 	return (
 		<div className="footerMain">
-			<EmojiEmotions />
+			<AttachFile />
 			<input type="file" id="fileInput" style={{ display: "none" }} onChange={(e) => onFileChange(e)} />
 			<div className="footerSearch">
 				<input className="inputField" placeholder="Type a message" inputProps={{ "aria-label": "search" }} onChange={(e) => setValue(e.target.value)} onKeyPress={(e) => sendText(e)} value={value} />

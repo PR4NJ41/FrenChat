@@ -8,10 +8,10 @@
 }
 
 .loginBox {
-	justify-content: center;
+	padding-top: 70px;
 	align-items: center;
 	display: flex;
-	height: 50vh;
+	height: 30vh;
 	width: 30vw;
 	background-color: rgb(255, 255, 255);
 	border-radius: 12px;
@@ -22,4 +22,5 @@
 .h1 {
 	font-family: Archivo;
 	font-weight: 500;
+	color: black;
 }

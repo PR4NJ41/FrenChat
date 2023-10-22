@@ -3,10 +3,9 @@ import { emptyChatImage } from "../../../constants/data";
 
 const EmptyChat = () => {
 	return (
-		<div>
-			<img src={emptyChatImage} alt="empty" style={{ marginTop: 100, width: 400 }} />
-			<h1>WhatsApp Web</h1>
-			<h2>Click on Any Chat to see messages.</h2>
+		<div className="empty">
+			<h1>FrenChat</h1>
+			<h3>Click on Any Chat to see messages.</h3>
 		</div>
 	);
 };
