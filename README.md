@@ -2,7 +2,7 @@
 
 A platform where you can chat.
 
-<img width="1710" alt="Screenshot" src="https://github.com/PR4NJ41/FrenChat/assets/96368921/7ec938d1-a1e8-4044-81e1-bc5c8a52c017">
+<img width="1710" alt="Screenshot" src="https://github.com/PR4NJ41/FrenChat/assets/96368921/9863b08c-1483-461f-a7e7-48ba4953fe1d">
 
 
 
