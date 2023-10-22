@@ -1,0 +1,135 @@
+/* header */
+
+.mainHeader {
+	height: 44px;
+	background: rgb(33, 35, 66);
+	display: flex;
+	padding: 8px 16px;
+	align-items: center;
+}
+
+.headerwrap {
+	margin-left: auto;
+	& > * {
+		margin-left: 2px;
+		padding: 8px;
+		color: #000;
+	}
+	& :first-child {
+		font-size: 22px;
+		margin-right: 8px;
+		margin-top: 3px;
+	}
+}
+
+.imgHead {
+	height: 40;
+	width: 40;
+	border-radius: "50%";
+}
+
+/* Search */
+
+.mainSearch {
+	background: rgb(33, 35, 66);
+	height: 55px;
+	display: flex;
+	align-items: center;
+	/* border-bottom: 1px rgb(42, 47, 77) solid; */
+	padding-bottom: 5px !important;
+}
+
+.searchBox {
+	position: relative;
+	align-items: center;
+	border-radius: 12px;
+	background-color: rgb(36, 41, 71);
+	margin: 0 20px;
+	width: 100%;
+}
+
+.icn {
+	color: rgb(80, 77, 122);
+	padding: 10px;
+
+	height: 100%;
+	position: absolute;
+}
+
+.inputSearchField {
+	width: 100%;
+	height: 40px;
+	position: relative;
+	padding: 0px 0px 0px 10px;
+	border: none;
+	border-radius: 12px;
+	font-family: "Gotham SSm A", "Gotham SSm B", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: normal;
+	background-color: transparent;
+	color: rgb(211, 211, 211);
+	margin-left: 30px;
+	/* background-color: antiquewhite; */
+	outline: none;
+	box-shadow: 0px 4px 20px 0px transparent;
+	transition: 0.3s background-color ease-in-out, 0.3s box-shadow ease-in-out, 0.1s padding ease-in-out;
+	-webkit-appearance: none;
+}
+*::placeholder {
+	color: rgb(80, 77, 122);
+}
+
+/* conversations */
+
+.conversationBox {
+	overflow: overlay;
+	height: 81vh;
+}
+
+.styledDivider {
+	margin: 0 0 0 70px;
+	background-color: #e9edef;
+	opacity: 0.6;
+}
+
+/* conversation */
+
+.smallConvBox {
+	height: 45px;
+	display: flex;
+	padding: 13px 0;
+	cursor: pointer;
+	background-color: rgb(36, 41, 70);
+	margin: 10px 20px;
+	border-radius: 14px;
+	align-items: center;
+}
+.smallConvBox:hover {
+	background-color: rgb(63, 106, 224);
+}
+
+.leftImg {
+	width: 50;
+	height: 50;
+	object-fit: "cover";
+	border-radius: "50%";
+	padding: "0 14px";
+}
+
+.list {
+	display: flex;
+}
+
+.time {
+	font-size: 12px;
+	margin-left: auto;
+	color: #00000099;
+	margin-right: 20px;
+}
+
+.leftText {
+	display: block;
+	color: rgba(198, 198, 198, 0.6);
+	font-size: 14px;
+}

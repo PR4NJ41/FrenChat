@@ -1,0 +1,139 @@
+/* chat Header */
+
+.header {
+	height: 44px;
+	background: rgb(33, 35, 66);
+	display: flex;
+	position: absolute !important;
+	width: -webkit-fill-available;
+	top: 0px;
+	padding: 8px 16px;
+	align-items: center;
+	border-bottom: 2px rgb(42, 47, 77) solid;
+}
+.nameHeader {
+	margin-left: 12px !important;
+	font-weight: 500;
+	color: white;
+}
+
+.statusHeader {
+	font-size: 10px !important;
+	color: rgba(255, 255, 255, 0.6);
+	margin-left: 12px !important;
+	margin-top: 5px;
+	font-weight: 500;
+}
+
+/* Footer */
+
+.footerMain {
+	border-top: 1px rgb(42, 47, 77) solid;
+	height: 55px;
+	background: rgb(33, 35, 66);
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* flex-direction: row; */
+
+	padding: 0 15px;
+	& > * {
+		margin: 10px;
+		color: rgb(80, 77, 122);
+	}
+}
+
+.footerSearch {
+	border-radius: 18px;
+	background-color: rgb(36, 41, 71);
+	width: calc(94% - 100px);
+}
+
+.inputField {
+	width: calc(94% - 100px);
+	height: 40px;
+	position: relative;
+	padding: 0px 20px;
+	border: none;
+	border-radius: 4px;
+	font-family: "Gotham SSm A", "Gotham SSm B", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: normal;
+	background-color: transparent;
+	color: rgb(236, 236, 236);
+	outline: none;
+	box-shadow: 0px 4px 20px 0px transparent;
+	transition: 0.3s background-color ease-in-out, 0.3s box-shadow ease-in-out, 0.1s padding ease-in-out;
+	-webkit-appearance: none;
+}
+
+/* Messages */
+.wrapperMessages {
+	display: flex;
+	margin-bottom: 70px;
+}
+.componentsMessages {
+	height: 84vh;
+	overflow-y: scroll;
+	padding-top: 70px;
+	/* padding-bottom: 80px; */
+}
+.foo {
+	position: absolute !important;
+	display: flex;
+	flex-direction: column;
+	bottom: 0px !important;
+	padding-bottom: 0px;
+	width: 63%;
+}
+
+.containerMessages {
+	padding: 5px 80px;
+}
+
+/* Message */
+
+.wrapper {
+	background-color: rgb(36, 41, 71);
+	padding: 10px;
+	max-width: 60%;
+	width: fit-content;
+	display: flex;
+	border-radius: 10px;
+	word-break: break-word;
+	height: 100%;
+}
+.textWrapper {
+	font-size: 16px;
+	display: flex;
+	flex-direction: column;
+}
+
+.own {
+	background: rgb(63, 106, 224);
+	padding: 10px;
+	max-width: 60%;
+	width: fit-content;
+	margin-left: auto;
+	display: flex;
+	border-radius: 16px;
+	word-break: break-word;
+	height: 100%;
+	box-shadow: 1px 1px 10px 1px rgba(68, 68, 68, 0.1);
+}
+
+.text {
+	color: rgb(223, 223, 223);
+	font-size: 14px;
+	padding: 0px 10px 0 5px;
+}
+.time {
+	font-size: 12px;
+	color: #d2d2d2;
+	word-break: keep-all;
+	margin-top: auto;
+	padding: 5px 10px 0px 67px;
+	align-self: end;
+}
