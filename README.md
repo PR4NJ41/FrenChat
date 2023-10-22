@@ -13,6 +13,8 @@ Name: Pranjal Rajput
 University: IIT BHU Varanasi
 
 Department: Chemical Engineering
+
+Profile: SDE
 ```
 
 [**PREVIEW & SETUP VIDEO**](https://drive.google.com/file/d/1--akSdu5k2h1Mz-POBKORSh4SxhFa9m7/view?usp=drivesdk)
