@@ -1,5 +1,10 @@
-# FrenChat
+# FrenChat!
+
 A platform where you can chat.
+
+<img width="1710" alt="Screenshot" src="https://github.com/PR4NJ41/FrenChat/assets/96368921/7ec938d1-a1e8-4044-81e1-bc5c8a52c017">
+
+
 
 # About Me
 ```
