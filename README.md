@@ -68,7 +68,7 @@ We utilize MongoDB as our NoSQL database to store and manage chat messages and u
 JWTs are employed for secure user authentication and authorization in our chat app, enhancing the privacy and security of user data.
 
 ### Dotenv
-The dotenv library ensures that sensitive environment variables, such as API keys and database credentials, are securely managed in our Node.js application.
+The dotenv library ensures that sensitive environment variables, such as API keys and database credentials, are securely managed in our Node.js application. I have provided the .env file in server folder for evaluation purposes. Generally it should not be uploaded.
 
 ### Nodemon
 Nodemon is an essential development tool that automatically restarts the Node.js server when code changes are detected, streamlining the development process.
